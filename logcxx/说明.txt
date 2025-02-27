@@ -1,0 +1,9 @@
+1.先再nuget本地仓安装log4net
+2.在AssemblyInfo.cs添加以下代码
+[assembly: log4net.Config.XmlConfigurator(ConfigFile = "logcxx/log4net.config", ConfigFileExtension = "config", Watch = true)]
+3.将log4net.config 的文件属性---》复制到输出目录：如果较新则复制
+4.使用方法
+ LogHelper.Info("============INFO============");
+ LogHelper.Error("============Error============");
+ LogHelper.Warn("============Warn============");
+ LogHelper.Debug("============debug===========");

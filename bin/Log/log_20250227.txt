@@ -1,0 +1,67 @@
+2025-02-27 13:19:44,920 [3] INFO  LogInfo - cmd显示：I:\lsy\CloudManager\bin>mc config host ls
+2025-02-27 13:19:45,100 [3] INFO  LogInfo - cmd显示：gcs     
+2025-02-27 13:19:45,101 [3] INFO  LogInfo - cmd显示：  URL       : https://storage.googleapis.com
+2025-02-27 13:19:45,102 [3] INFO  LogInfo - cmd显示：  AccessKey : YOUR-ACCESS-KEY-HERE
+2025-02-27 13:19:45,104 [3] INFO  LogInfo - cmd显示：  SecretKey : YOUR-SECRET-KEY-HERE
+2025-02-27 13:19:45,105 [3] INFO  LogInfo - cmd显示：  API       : S3v2
+2025-02-27 13:19:45,105 [3] INFO  LogInfo - cmd显示：  Path      : dns
+2025-02-27 13:19:45,107 [3] INFO  LogInfo - cmd显示：local   
+2025-02-27 13:19:45,108 [3] INFO  LogInfo - cmd显示：  URL       : http://localhost:9000
+2025-02-27 13:19:45,109 [3] INFO  LogInfo - cmd显示：  AccessKey : 
+2025-02-27 13:19:45,110 [3] INFO  LogInfo - cmd显示：  SecretKey : 
+2025-02-27 13:19:45,111 [3] INFO  LogInfo - cmd显示：  API       : 
+2025-02-27 13:19:45,112 [3] INFO  LogInfo - cmd显示：  Path      : auto
+2025-02-27 13:19:45,113 [3] INFO  LogInfo - cmd显示：minioapi
+2025-02-27 13:19:45,114 [3] INFO  LogInfo - cmd显示：  URL       : http://192.168.1.2:9001
+2025-02-27 13:19:45,117 [3] INFO  LogInfo - cmd显示：  AccessKey : admin
+2025-02-27 13:19:45,118 [3] INFO  LogInfo - cmd显示：  SecretKey : ard12345
+2025-02-27 13:19:45,119 [3] INFO  LogInfo - cmd显示：  API       : s3v4
+2025-02-27 13:19:45,120 [3] INFO  LogInfo - cmd显示：  Path      : auto
+2025-02-27 13:19:45,122 [3] INFO  LogInfo - cmd显示：play    
+2025-02-27 13:19:45,123 [3] INFO  LogInfo - cmd显示：  URL       : https://play.min.io
+2025-02-27 13:19:45,124 [3] INFO  LogInfo - cmd显示：  AccessKey : Q3AM3UQ867SPQQA43P2F
+2025-02-27 13:19:45,126 [3] INFO  LogInfo - cmd显示：  SecretKey : zuf+tfteSlswRu7BJ86wekitnifILbZam1KYY3TG
+2025-02-27 13:19:45,128 [3] INFO  LogInfo - cmd显示：  API       : S3v4
+2025-02-27 13:19:45,129 [3] INFO  LogInfo - cmd显示：  Path      : auto
+2025-02-27 13:19:45,130 [3] INFO  LogInfo - cmd显示：s3      
+2025-02-27 13:19:45,132 [3] INFO  LogInfo - cmd显示：  URL       : https://s3.amazonaws.com
+2025-02-27 13:19:45,134 [3] INFO  LogInfo - cmd显示：  AccessKey : YOUR-ACCESS-KEY-HERE
+2025-02-27 13:19:45,136 [3] INFO  LogInfo - cmd显示：  SecretKey : YOUR-SECRET-KEY-HERE
+2025-02-27 13:19:45,137 [3] INFO  LogInfo - cmd显示：  API       : S3v4
+2025-02-27 13:19:45,139 [3] INFO  LogInfo - cmd显示：  Path      : dns
+2025-02-27 13:19:47,328 [3] INFO  LogInfo - cmd显示：I:\lsy\CloudManager\bin>mc ls minioapi
+2025-02-27 13:19:47,380 [3] INFO  LogInfo - cmd显示：[2024-12-11 10:09:15 CST]     0B alarm/
+2025-02-27 13:19:47,381 [3] INFO  LogInfo - cmd显示：[2024-12-11 10:04:58 CST]     0B appfile/
+2025-02-27 13:19:47,383 [3] INFO  LogInfo - cmd显示：[2024-12-11 10:09:33 CST]     0B order/
+2025-02-27 13:19:47,384 [3] INFO  LogInfo - cmd显示：[2024-12-11 10:08:58 CST]     0B pic/
+2025-02-27 13:19:47,385 [3] INFO  LogInfo - cmd显示：[2024-12-11 10:09:55 CST]     0B record/
+2025-02-27 13:19:47,386 [3] INFO  LogInfo - cmd显示：[2024-12-11 10:10:10 CST]     0B sycar/
+2025-02-27 13:19:47,387 [3] INFO  LogInfo - cmd显示：[2024-12-11 10:10:23 CST]     0B system/
+2025-02-27 13:19:47,388 [3] INFO  LogInfo - cmd显示：[2024-12-28 08:48:08 CST]     0B work-order/
+2025-02-27 13:19:53,383 [3] INFO  LogInfo - cmd显示：I:\lsy\CloudManager\bin>mc config host remove minioapi
+2025-02-27 13:19:53,425 [3] INFO  LogInfo - cmd显示：Removed `minioapi` successfully.
+2025-02-27 13:19:55,430 [3] INFO  LogInfo - cmd显示：I:\lsy\CloudManager\bin>mc config host ls
+2025-02-27 13:19:55,477 [3] INFO  LogInfo - cmd显示：gcs  
+2025-02-27 13:19:55,478 [3] INFO  LogInfo - cmd显示：  URL       : https://storage.googleapis.com
+2025-02-27 13:19:55,479 [3] INFO  LogInfo - cmd显示：  AccessKey : YOUR-ACCESS-KEY-HERE
+2025-02-27 13:19:55,481 [3] INFO  LogInfo - cmd显示：  SecretKey : YOUR-SECRET-KEY-HERE
+2025-02-27 13:19:55,482 [3] INFO  LogInfo - cmd显示：  API       : S3v2
+2025-02-27 13:19:55,483 [3] INFO  LogInfo - cmd显示：  Path      : dns
+2025-02-27 13:19:55,484 [3] INFO  LogInfo - cmd显示：local
+2025-02-27 13:19:55,486 [3] INFO  LogInfo - cmd显示：  URL       : http://localhost:9000
+2025-02-27 13:19:55,487 [3] INFO  LogInfo - cmd显示：  AccessKey : 
+2025-02-27 13:19:55,488 [3] INFO  LogInfo - cmd显示：  SecretKey : 
+2025-02-27 13:19:55,489 [3] INFO  LogInfo - cmd显示：  API       : 
+2025-02-27 13:19:55,490 [3] INFO  LogInfo - cmd显示：  Path      : auto
+2025-02-27 13:19:55,492 [3] INFO  LogInfo - cmd显示：play 
+2025-02-27 13:19:55,493 [3] INFO  LogInfo - cmd显示：  URL       : https://play.min.io
+2025-02-27 13:19:55,494 [3] INFO  LogInfo - cmd显示：  AccessKey : Q3AM3UQ867SPQQA43P2F
+2025-02-27 13:19:55,495 [3] INFO  LogInfo - cmd显示：  SecretKey : zuf+tfteSlswRu7BJ86wekitnifILbZam1KYY3TG
+2025-02-27 13:19:55,497 [3] INFO  LogInfo - cmd显示：  API       : S3v4
+2025-02-27 13:19:55,498 [3] INFO  LogInfo - cmd显示：  Path      : auto
+2025-02-27 13:19:55,500 [3] INFO  LogInfo - cmd显示：s3   
+2025-02-27 13:19:55,501 [3] INFO  LogInfo - cmd显示：  URL       : https://s3.amazonaws.com
+2025-02-27 13:19:55,502 [3] INFO  LogInfo - cmd显示：  AccessKey : YOUR-ACCESS-KEY-HERE
+2025-02-27 13:19:55,504 [3] INFO  LogInfo - cmd显示：  SecretKey : YOUR-SECRET-KEY-HERE
+2025-02-27 13:19:55,505 [3] INFO  LogInfo - cmd显示：  API       : S3v4
+2025-02-27 13:19:55,506 [3] INFO  LogInfo - cmd显示：  Path      : dns
